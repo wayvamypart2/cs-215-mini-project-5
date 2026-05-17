@@ -8,6 +8,8 @@ Date: 04/27/2026
 
 Course: CS-215
 
+---
+
 ## Overview
 
 This project analyzes GPS movement data from Professor Wirfs-Brock’s visit in March 2022.  
