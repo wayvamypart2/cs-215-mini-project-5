@@ -8,58 +8,61 @@ Course: CS-215
 
 ---
 
-## Mini Project 5
+**View full interactive project:**
 
-👉 View full interactive project:
+[Open Mini Project 5](project5.html)
 
-[Open Project Page](project5.html)
+---
 
-## Overview
+## Project Overview
 
 This project analyzes GPS movement data from Professor Wirfs-Brock’s visit in March 2022.  
-Using geospatial techniques, I explored how her movement varied over time and space.
-
-The analysis includes:
-- Distance calculations using the Haversine formula  
-- Identification of closest and farthest points from Brasserie Four (Walla Walla)  
-- Interactive Plotly maps  
-- Geospatial clustering to identify movement regions  
+The goal is to explore spatial movement patterns using geospatial analysis techniques and interactive visualization.
 
 ---
 
-## Part 1A: Distance Analysis
+## Methods Used
 
-I used Brasserie Four in Walla Walla as a reference location and computed distances from all GPS points.
+This project includes:
 
-### Key Results:
-- Closest point: ~0.046 km (subject was physically at Brasserie Four)
-- Farthest point: ~1307 km (outside Washington state)
-
-These results show both local presence and long-distance travel.
-
----
-
-## Part 1B: Movement Visualization
-
-The dataset was visualized using interactive Plotly maps to show spatial movement patterns over time.
-
-[Open Movement Map](movement_map.html)
+- Haversine formula for calculating geographic distance
+- Identification of closest and farthest recorded points
+- Interactive Plotly visualizations of GPS movement
+- Geospatial clustering using rounded latitude/longitude values
 
 ---
 
-## Geospatial Clustering
+## Key Findings
 
-To better understand movement structure, I grouped GPS coordinates into geographic clusters based on rounded latitude and longitude values.
+- Closest recorded point: ~0.046 km (essentially at Brasserie Four in Walla Walla)
+- Farthest recorded point: ~1307 km (outside Washington state)
+- Movement occurs in distinct geographic clusters rather than continuous paths
+- 11 spatial clusters were identified in the dataset
 
-The analysis revealed:
-- 11 distinct clusters
-- A major concentration around ~39.7–39.8 latitude and -105 longitude (Denver region)
-- A smaller cluster in Walla Walla
+---
 
-[Open Cluster Map](cluster_map.html)
+## Interactive Project Page
+
+All interactive visualizations are embedded in the project page below.
+
+**[Open Mini Project 5](project5.html)**
+
+This page includes:
+- Embedded Movement Map (Plotly)
+- Embedded Geospatial Cluster Map
+- Full written analysis and interpretation
+
+---
+
+## Files in this Repository
+
+- `README.md` - Project overview and navigation
+- `project5.html` - Main interactive project page (with iframe maps)
+- `movement_map.html` - Interactive movement visualization
+- `cluster_map.html` - Cluster-based geospatial visualization
 
 ---
 
 ## Conclusion
 
-The data shows structured movement patterns with clear geographic separation between regions rather than continuous travel.
+This analysis reveals structured geographic movement patterns with clear regional clustering and long-distance travel between locations.
