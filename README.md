@@ -37,7 +37,7 @@ These results show both local presence and long-distance travel.
 
 The dataset was visualized using interactive Plotly maps to show spatial movement patterns over time.
 
-[Open Movement Map](images/movement_map.html)
+[Open Movement Map](movement_map.html)
 
 ---
 
@@ -50,7 +50,7 @@ The analysis revealed:
 - A major concentration around ~39.7–39.8 latitude and -105 longitude (Denver region)
 - A smaller cluster in Walla Walla
 
-[Open Cluster Map](images/cluster_map.html)
+[Open Cluster Map](cluster_map.html)
 
 ---
 
