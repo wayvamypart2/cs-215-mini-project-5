@@ -8,6 +8,12 @@ Course: CS-215
 
 ---
 
+## Mini Project 5
+
+👉 View full interactive project:
+
+[Open Project Page](project5.html)
+
 ## Overview
 
 This project analyzes GPS movement data from Professor Wirfs-Brock’s visit in March 2022.  
