@@ -1,5 +1,3 @@
----
-
 # Mini Project 5: Working with Geospatial Data
 
 Name: Amelia Pucek
